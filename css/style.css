@@ -1145,6 +1145,15 @@ p.DJI {
     .text-sec3 {
         width: 90%;
     }
+
+    .text {
+        width: 110%;
+    }
+
+    .price {
+        width: 110%;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -1350,7 +1359,92 @@ p.DJI {
 
 @media screen and (max-width: 487px) {
     .col {
-        width: 200%;
+        width: 350%;
+    }
+
+    .col5 .title::after,
+    .col4 .title::after,
+    .col3 .title::after,
+    .col2 .title::after,
+    .col1 .title::after {
+
+        width: 160%;
+        left: 0%;
+    }
+
+    .col5 .title::after {
+        right: 0%;
+    }
+
+    .col5 .title::before,
+    .col4 .title::before,
+    .col3 .title::before,
+    .col2 .title::before,
+    .col1 .title::before {
+
+        width: 160%;
+        right: 100%;
+    }
+
+    .col1 .title::before {
+        left: 100%;
+    }
+
+
+
+    .col5 .title::before {
+        right: 100%;
+    }
+
+
+
+
+    .col .row1::after,
+    .col .row2::after,
+    .col .row3::after,
+    .col .row4::after,
+    .col .row5::after,
+    .col .row6::after,
+    .col .row7::after,
+    .col .row8::after,
+    .col .row9::after {
+
+        width: 150%;
+        left: 0%;
+    }
+
+    .col .col2 .row9::after {
+        height: .8px;
+        bottom: 86px;
+    }
+
+    .col .row1::before,
+    .col .row2::before,
+    .col .row3::before,
+    .col .row4::before,
+    .col .row5::before,
+    .col .row6::before,
+    .col .row7::before,
+    .col .row8::before,
+    .col .row9::before {
+
+        width: 150%;
+        right: 100%;
+    }
+
+    .col .col2 .row9::before {
+        visibility: hidden;
+    }
+
+
+    .col .col1 .rows::before {
+        left: 150%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .col {
+        width: 350%;
     }
 
     .col5 .title::after,
