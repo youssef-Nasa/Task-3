@@ -1350,7 +1350,7 @@ p.DJI {
 
 @media screen and (max-width: 487px) {
     .col {
-        width: 350%;
+        width: 200%;
     }
 
     .col5 .title::after,
